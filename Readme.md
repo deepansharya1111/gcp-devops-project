@@ -1,5 +1,5 @@
-#### My new devops project
+# Docker Flask application
 
-This is a repo for my new devops project.
-
+- This pplication is written in python.
+- It shall be deployed on GKE
 [EOF]
