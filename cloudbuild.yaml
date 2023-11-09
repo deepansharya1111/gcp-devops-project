@@ -1,7 +1,7 @@
 steps:
   # Create the GKE cluster
   - name: 'gcloud'
-    entrypoint: '/usr/local/google/cloud-sdk/bin/gcloud'
+    entrypoint: '/usr/bin/gcloud'
     args: ['container', 'clusters', 'create', 'gcp-devops-project', '--region', 'us-central1', '--machine-type', 'e2-medium', '--num-nodes', '1']
   # Build the Docker image
   - name: 'docker'
