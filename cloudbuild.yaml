@@ -1,6 +1,6 @@
 steps:
   # Create the GKE cluster
-- name: 'gcr.io/cloud-builders/gcloud'
+  - name: 'gcr.io/cloud-builders/gcloud'
     entrypoint: gcloud
     args:
       - "container"
